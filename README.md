@@ -1,4 +1,4 @@
-# idobata-chrom-app
+# idobata-chrome-app
 
 This is unofficial [Idobata](https://idobata.io/) client.
 
