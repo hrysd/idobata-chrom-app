@@ -1,0 +1,16 @@
+{
+  "name": "Idobata",
+  "description": "",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["webview"],
+  "icons": {
+    "16": "icons/icon-19.png",
+    "128": "icons/icon-128.png"
+  }
+}
