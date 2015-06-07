@@ -1,6 +1,6 @@
 {
   "name": "Idobata",
-  "description": "",
+  "description": "Unofficial Idobata client built on Chrome",
   "version": "0.0.0",
   "manifest_version": 2,
   "app": {
