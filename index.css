@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+webview {
+  height: 100%;
+  width:  100%;
+}
+
+#alert {
+  width: 150px;
+  height: 60px;
+  background: white;
+  box-shadow: 0 0 3px rgba(0,0,0,1);
+  border: 1px solid #F6F6F6;
+  border-radius: 4px;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  margin-top: -40px;
+  left: 50%;
+  margin-left: -80px;
+  z-index: 11;
+}
+
+#alert .alert-content {
+  text-align: center;
+}
+
+#alert .alert-content p {
+  margin-top: 0
+}
+
+#alert span {
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#alert span:hover {
+  background: #EEE
+}
+
+#alert span:active {
+  background: #F6F6F6
+}
+
+#backdrop {
+  z-index: 10;
+  width:  100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+}

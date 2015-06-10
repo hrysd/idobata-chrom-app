@@ -3,17 +3,24 @@
   <head>
     <meta charset='utf-8'>
     <title>Idobata</title>
-    <style>
-      html, body { height: 100%; }
-      body { margin: 0px; }
-      webview {
-        height: 100%;
-        width:  100%;
-        }
-      </style>
+    <link rel='stylesheet' href='./index.css'>
   </head>
   <body>
     <webview id='idobata' src='https://idobata.io'></webview>
+
+    <div id='alert' style='display:none;'>
+      <div class='alert-content'>
+        <p>Are you sure?</p>
+
+        <div class='controls'>
+          <span class='ok'>Yes</span>
+          <span class='no'>No</span>
+        </div>
+      </div>
+    </div>
+
+    <div id='backdrop' style="display:none"></div>
+
     <script src='./index.js'></script>
   </body>
 </html>
